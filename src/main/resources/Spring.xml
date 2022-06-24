@@ -6,19 +6,18 @@
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
 
 
+<!--    <bean id="Phone" class="org.example.Phone" />-->
 
-    <bean id="Phone" class="org.example.Phone" />
-
-    <bean id="Address" class="org.example.Address" />
-
+<!--    <bean id="Address" class="org.example.Address" />-->
 
 
-    <bean id="Student" class="org.example.Student">
-        <constructor-arg index="0" type="int" value="1" />
-        <constructor-arg index="1" value="Noah"/>
-        <constructor-arg index="2" ref="Phone" />
-        <constructor-arg index="3" ref="Address" />
-    </bean>
+
+<!--    <bean id="Student" class="org.example.Student">-->
+<!--        <constructor-arg index="0" type="int" value="1" />-->
+<!--        <constructor-arg index="1" value="Noah"/>-->
+<!--        <constructor-arg index="2" ref="Phone" />-->
+<!--        <constructor-arg index="3" ref="Address" />-->
+<!--    </bean>-->
 
 
 </beans>

@@ -1,0 +1,6 @@
+[submodule "Week8"]
+	path = Week8
+	url = https://github.com/NoahGoodwin/Week8XML
+[submodule "Week8Annotation"]
+	path = Week8Annotation
+	url = https://github.com/NoahGoodwin/Week8Annotation
